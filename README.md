@@ -17,5 +17,6 @@ For each pose, the wrist coordination is passed to the PONG game, to draw the pa
 ## TODO
 
 - 🧹 Clean up script.js 
+- Better person detection / give feedback (move further from the camera)
 - Better player detection
 - Test with better GPU
