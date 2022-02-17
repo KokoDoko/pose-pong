@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../../favicon.ico" />
+    <title>Pose Pong</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer type="module"></script>
+</head>
+
+<body>
+    <!-- 640 x 360 gets scaled by css to 1280 x 720-->
+    <div id="container">
+        <canvas id="canvas" width="1280" height="720"></canvas>
+        <video id="video" width="1280" height="720" autoplay></video>
+    </div>
+    <div id="message">Loading...</div>
+    <div id="player1">P1 not detected</div>
+    <div id="player2">P2 not detected</div>
+</body>
+
+</html>
